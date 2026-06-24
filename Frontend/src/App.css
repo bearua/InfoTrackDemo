@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  background: antiquewhite;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+.Panel {
+  border: black solid 1px;
+  border-radius: 5px;
+  margin: 3px;
+}
+.PanelHeader {
+  background: darkolivegreen;
+  width: 100%;
+}
+.Container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.LocationHeader {
+  background: khaki;
+  width: 100%;
+  text-align: left;
+}
+.ContactsPanel {
+  width: 100%;
+}
+.SearchItem {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-width: 300px;
+}
+.ContactItem {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: black solid 1px;
+  padding: 2px;
+}
+
+.DetailsPanel{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.GridCell {
+  border-left: black solid 1px;
+}
+.RatingContainer {
+  display: flex;
+}
+.Rating {
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  float: left;
+}
+.StarFull {
+  background-image: url(/public/stars-full.png);
+}
+.StarHalf {
+  background-image: url(/public/stars-half.png);
+}
+.StarNone {
+  background-image: url(/public/stars-none.png);
+}
+h3 {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+button {
+  margin: 3px;
+  border-radius: 5px;
+  background: antiquewhite;
+}
+input {
+  box-sizing: border-box;
+}
