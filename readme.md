@@ -53,4 +53,4 @@ npm install
 npm start
 ```
 If everything goes right you could see the application by following url http://localhost:3000/
-* ![Screenshot](/images/Screenshot1.png "Screenshot")
+* ![Screenshot](/images/Screenshot1.PNG "Screenshot")
